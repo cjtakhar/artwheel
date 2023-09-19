@@ -8,8 +8,10 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="container">
         <div className="navbar-brand">
-          <Link to="/artwheel" className="navbar-logo">Art Wheel</Link>
-          <img src={Image} alt="logo" className="logo" />
+          <Link to="/artwheel" className="navbar-logo">
+            <img src={Image} alt="logo" className="logo" /> {/* Move the logo inside the Link */}
+            Art Wheel
+          </Link>
         </div>
 
         <div className="navbar-menu">

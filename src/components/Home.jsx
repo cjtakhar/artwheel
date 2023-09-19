@@ -1,5 +1,4 @@
 import "../styles/Home.css";
-import NavBar from "./NavBar";
 import Info from "./Info";
 import { BsApple } from "react-icons/bs";
 import { FaGooglePlay } from "react-icons/fa";

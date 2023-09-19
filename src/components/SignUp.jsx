@@ -1,12 +1,8 @@
-import { useState } from 'react';
 import '../styles/SignUp.css';
 
 const SignUp = () => {
-    const [submit, setSubmit] = useState(false);
-
     const handleSubmit = (e) => {
         e.preventDefault();
-        setSubmit(true);
         alert("Nice! Stoked to meet you! We are not quite ready for members but we will be soon!");
     };
 
