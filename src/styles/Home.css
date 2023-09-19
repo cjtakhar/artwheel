@@ -11,7 +11,7 @@ h1 {
     margin: 0 auto;
     font-weight: 700;
     font-size: 1.5rem;
-    background-color: #ffe000;
+    background-color: #15b8ea;
     height: 100vh;
 }
 
@@ -23,7 +23,7 @@ h1 {
 }
 
 .btn-container {
-    background-color: #ffe000;
+    background-color: #15b8ea;
     width: 100%;
     margin-top: 50px;
 }
@@ -34,7 +34,7 @@ h1 {
     justify-content: space-evenly;
     width: 50%;
     margin: 0 auto;
-    background-color: #ffe000;
+    background-color: #15b8ea;
 }
 
 .download-button {
@@ -46,11 +46,11 @@ h1 {
     padding:20px;
     border: none;
     border-radius: 5px;
-    background-color: black;
+    background-color: white;
     color: black;
     font-weight: 700;
     font-size: 1rem;
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
