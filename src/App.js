@@ -12,8 +12,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/artwheel" element={<Home />} />
-          <Route path="/artwheel/about" element={<About />} />
-          <Route path="/artwheel/signup" element={<SignUp />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/signup" element={<SignUp />} />
         </Routes> 
       </BrowserRouter>
     </div>
