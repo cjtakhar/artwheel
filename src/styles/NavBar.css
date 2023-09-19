@@ -21,19 +21,6 @@
     position: fixed;
 }
   
-  
-  .navbar-toggle {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 24px;
-  }
-  
   .bar {
     background-color: #fff;
     height: 3px;
@@ -47,8 +34,7 @@
     position: fixed;
     background-color: #ffe000;
     top: 10px;
-    right: 10px;
-    display: none;
+    right:40px;
   }
   
   .navbar-menu.active {
@@ -81,6 +67,12 @@
   .nav-link:hover {
     color: #ccc;
   }
+
+@media screen and (max-width: 1216px) {
+  .download-buttons {
+    width: 80%;
+  }
+}
   
   /* Media query for screens smaller than a certain width (e.g., 768px) */
 @media screen and (max-width: 768px) {

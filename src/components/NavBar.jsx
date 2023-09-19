@@ -1,13 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../styles/NavBar.css';
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
-
   return (
     <nav className="navbar">
       <div className="container">
@@ -15,7 +9,7 @@ const Navbar = () => {
           <a href="/artwheel" className="navbar-logo">Art Wheel</a>
         </div>
 
-        <div className={`navbar-menu ${isOpen ? 'active' : ''}`}>
+        <div className="navbar-menu">
           <ul className="navbar-nav">
             <li className="nav-item">
               <a href="/about" className="nav-link">About</a>
@@ -25,15 +19,6 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-
-        <button
-          className={`navbar-toggle ${isOpen ? 'active' : ''}`}
-          onClick={toggleMenu}
-        >
-          <span className="bar"></span>
-          <span className="bar"></span>
-          <span className="bar"></span>
-        </button>
       </div>
     </nav>
   );
