@@ -1,13 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Import Link
+import { Link } from 'react-router-dom';
 import '../styles/NavBar.css';
+import Image from '../images/logo.png';
 
 const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="container">
         <div className="navbar-brand">
-          <Link to="/artwheel" className="navbar-logo">Art Wheel</Link> {/* Use Link */}
+          <Link to="/artwheel" className="navbar-logo">Art Wheel</Link>
+          <img src={Image} alt="logo" className="logo" />
         </div>
 
         <div className="navbar-menu">
