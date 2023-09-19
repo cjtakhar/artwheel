@@ -1,0 +1,48 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.email, .password {
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+    border-top: none;
+    border-bottom: solid 1px;
+    border-left: none;
+    border-right: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.email, .password:focus {
+    outline: none;
+}
+
+.submit-btn {
+    width: 150px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #ffe000;
+    border: solid 1px white;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.submit-btn:hover {
+    background-color: white;
+    color: black;
+    transition: .5s;
+}

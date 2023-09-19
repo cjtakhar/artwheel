@@ -51,6 +51,7 @@ h1 {
     font-weight: 700;
     font-size: 1rem;
     color: white;
+    text-decoration: none;
 }
 
 .download-button:hover {
@@ -73,6 +74,22 @@ h1 {
 .art-img {
     width: 100%;
     height: 100%;
+}
+
+@media (max-width: 976px) {
+    .download-buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .download-button {
+        width: 30%;
+        font-size: .8rem;
+        margin: 10px auto;
+    }
 }
 
 @media (max-width: 768px) {
@@ -105,3 +122,17 @@ h1 {
         margin: 0 auto;
     }
 }
+
+@media (max-width: 475px) {
+    .download-buttons {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .download-button {
+        width: 60%;
+        font-size: .8rem;
+        margin: 10px auto;
+    }
+}
+
