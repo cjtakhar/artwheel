@@ -1,0 +1,36 @@
+body {
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    padding: 20px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    background-color: white;
+    height: 100vh;
+}
+
+.info-header {
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-top: 150px;
+}
+
+.art-paragraph {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.teamwork-image {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
