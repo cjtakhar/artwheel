@@ -8,8 +8,7 @@
   
   .container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: row;
   }
   
   .navbar-logo {
@@ -42,9 +41,12 @@
   }
   
   .navbar-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: fixed;
     background-color: #ffe000;
-    padding: 10px 0;
-    top: 60px;
+    top: 10px;
     right: 10px;
     display: none;
   }
@@ -83,8 +85,7 @@
   /* Media query for screens smaller than a certain width (e.g., 768px) */
 @media screen and (max-width: 768px) {
     .navbar-menu {
-      display: flex;
-      flex-direction: column;
+      display:flex;
     }
   
     .navbar-menu.active {
@@ -97,23 +98,6 @@
     
     .navbar-brand {
       justify-content: space-between; /* Move the button to the right */
-    }
-  
-    /* Add any other responsive styles you need */
-  }
-  
-  /* Media query for screens larger than a certain width (e.g., 768px) */
-  @media screen and (min-width: 769px) {
-    .navbar-menu {
-      display: flex; /* Show the menu horizontally */
-    }
-  
-    .navbar-menu.active {
-      display: flex;
-    }
-  
-    .navbar-toggle {
-      display: none; /* Hide the hamburger button */
     }
   
     /* Add any other responsive styles you need */
