@@ -15,7 +15,7 @@
   .navbar-brand {
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
+    margin-top: 10px;
   }
   
   .navbar-logo {
