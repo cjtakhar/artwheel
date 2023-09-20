@@ -53,3 +53,11 @@
     color: black;
     transition: .5s;
 }
+
+@media (max-width: 768px) {
+
+    .signup-container {
+        margin-top: 50px;
+    }
+
+}
